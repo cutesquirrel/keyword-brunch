@@ -15,7 +15,7 @@ npm install --save "git+ssh://git@github.com:huafu/keyword-brunch.git"
 Usage:
 
 ```coffeescript
-module.exports = 
+module.exports = config:
   keyword:
     # file filter
     filePattern: /\.(js|css|html)$/
